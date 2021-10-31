@@ -55,3 +55,67 @@ public class MyClass {
 
 ----------------------------------------
 
+
+
+# Question 3
+
+### **Question:**
+
+> ***Write a program to calculate the area of a triangle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+	public static void main(String[] args) {
+		 Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the base of the Triangle:");
+         double b= s.nextDouble();
+ 
+         System.out.println("Enter the height of the Triangle:");
+          double h= s.nextDouble();
+ 
+                
+      double area=(b*h)/2;
+      System.out.println("Area of Triangle is: " + area);  
+	}
+}
+
+```
+----------------------------------------
+
+
+
+
+# Question 4
+
+### **Question:**
+
+> ***Write a program to calculate the area of a rectangle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+	public static void main(String[] args) {
+		 Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the length:");
+         double l= s.nextDouble();
+        System.out.println("Enter the breadth:");
+         double b= s.nextDouble();
+        
+          
+          double  area=l*b;
+      System.out.println("Area of Rectangle is: " + area); 
+	}
+}
+```
+----------------------------------------
