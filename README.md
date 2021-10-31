@@ -71,7 +71,7 @@ public class MyClass {
 import java.util.Scanner;
 public class MyClass {
 	public static void main(String[] args) {
-		 Scanner s= new Scanner(System.in);
+        Scanner s= new Scanner(System.in);
         
          System.out.println("Enter the base of the Triangle:");
          double b= s.nextDouble();
@@ -105,7 +105,7 @@ public class MyClass {
 import java.util.Scanner;
 public class MyClass {
 	public static void main(String[] args) {
-		 Scanner s= new Scanner(System.in);
+	Scanner s= new Scanner(System.in);
         
          System.out.println("Enter the length:");
          double l= s.nextDouble();
@@ -148,7 +148,7 @@ import java.util.Scanner;
 public class MyClass {
 
 	public static void main(String[] args) {
-		int num1, num2, sum;
+	int num1, num2, sum;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number: ");
         num1 = sc.nextInt();
