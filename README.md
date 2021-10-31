@@ -42,7 +42,7 @@ System.out.println("The area of the circle = " + area);
 import java.util.Scanner;
 public class MyClass {
 	public static void main(String[] args) {
-		 Scanner s= new Scanner(System.in);
+         Scanner s= new Scanner(System.in);
         
          System.out.println("Enter the radius:");
          double r= s.nextDouble();
