@@ -165,3 +165,36 @@ public class MyClass {
 ```
 ----------------------------------------
 
+
+
+# Question 6
+
+### **Question:**
+
+> ***Write a program to calculate the area of a parallelogram.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the base:");
+         double b= s.nextDouble();
+        System.out.println("Enter the height:");
+         double h= s.nextDouble();
+          
+          double  area=(b*h) ;
+      System.out.println("Area of Parallelogram is: " + area);  
+	}
+}
+
+```
+----------------------------------------
+
+
