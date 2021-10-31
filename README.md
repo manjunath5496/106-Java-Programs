@@ -119,3 +119,49 @@ public class MyClass {
 }
 ```
 ----------------------------------------
+
+# Question 5
+
+### **Question:**
+
+> ***Write a program to find the sum of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int a, b, sum;
+a=1;
+b=2;
+sum = a + b;
+System.out.println("The sum of a and b = " + sum);
+}
+}
+```
+
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+
+	public static void main(String[] args) {
+		int num1, num2, sum;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        num1 = sc.nextInt();
+        
+        System.out.println("Enter Second Number: ");
+        num2 = sc.nextInt();
+        
+        sc.close();
+        sum = num1 + num2;
+        System.out.println("Sum of " + num1 + " and " + num2 +" is : "+sum);
+	}
+}
+
+```
+----------------------------------------
+
