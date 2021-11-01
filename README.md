@@ -2685,3 +2685,48 @@ public static void main(String args[])
 ```
 ----------------------------------------
 
+
+
+
+# Question 83
+
+### **Question:**
+
+> ***Write a program to calculate total, average and percentage of 3 subjects.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass
+{
+public static void main(String args[])
+{
+     float phy, chem, math; 
+     double total, average, percentage;
+    Scanner op=new Scanner(System.in);
+  
+    System.out.print("Enter the marks of physics subject: ");
+    phy=op.nextFloat();
+    System.out.print("Enter the marks of chemistry subject: ");
+    chem=op.nextFloat();
+    System.out.print("Enter the marks of Math subject: ");
+    math=op.nextFloat();
+  
+
+    total = phy + chem + math;
+    average = (total / 3.0);
+    percentage = (total / 300.0) * 100;
+
+    System.out.println("Total marks ="+total);
+    System.out.println("Average marks = "+average);
+    System.out.println("Percentage = "+percentage);
+
+   }
+}
+
+```
+----------------------------------------
