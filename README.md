@@ -2851,7 +2851,7 @@ public class MyClass {
 
             if((i % 2) == 0) {
 
-                sum += i;
+                 sum = sum + i;
 
             }
         }
