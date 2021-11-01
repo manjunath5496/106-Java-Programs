@@ -2362,3 +2362,89 @@ public class  MyClass {
 
 ```
 ----------------------------------------
+
+
+
+# Question 73
+
+### **Question:**
+
+> ***Write a program to Check whether Java is installed on your computer.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass
+{
+	public static void main(String[] args) {
+	System.out.println("\nJava Version: "+System.getProperty("java.version"));
+    System.out.println("Java Runtime Version: "+System.getProperty("java.runtime.version"));
+    System.out.println("Java Home: "+System.getProperty("java.home"));
+    System.out.println("Java Vendor: "+System.getProperty("java.vendor"));
+    System.out.println("Java Vendor URL: "+System.getProperty("java.vendor.url"));
+    System.out.println("Java Class Path: "+System.getProperty("java.class.path")+"\n");
+	}
+}
+
+
+```
+----------------------------------------
+
+
+# Question 74
+
+### **Question:**
+
+> ***Write a program to reverse a string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        char[] letters = scanner.nextLine().toCharArray();
+        System.out.print("Reverse string: ");
+        for (int i = letters.length - 1; i >= 0; i--) {
+            System.out.print(letters[i]);
+        }
+        System.out.print("\n");
+    }
+}
+
+
+```
+----------------------------------------
+
+
+
+# Question 75
+
+### **Question:**
+
+> ***Write a program to Get the current system environment and system properties.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.lang.*;
+ public class MyClass {
+ public static void main(String[] args)
+ {
+        System.out.println("\nCurrent system environment:");
+         System.out.println(System.getenv());	 
+	System.out.println("\n\nCurrent system properties:");
+    System.out.println(System.getProperties());	
+  }
+}
+
+```
+----------------------------------------
