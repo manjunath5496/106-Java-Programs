@@ -1917,6 +1917,28 @@ public class MyClass {
 ```
 ----------------------------------------
 
+# Question 61
+
+### **Question:**
+
+> ***Write a program to illustrate .join() Method.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+	public static void main(String[] args) {
+	String a=String.join("-","Java","Programming");  
+    System.out.println(a);  
+	}
+}
+
+
+```
+----------------------------------------
+
 
 
 
