@@ -514,3 +514,139 @@ public class MyClass {
 ----------------------------------------
 
 
+# Question 17
+
+### **Question:**
+
+> ***Write a program to print the multiplication table of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+int n, i;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number: ");
+n = scan.nextInt();
+for( i=1; i<=5; i++)
+System.out.println (n + " * " + i + " = " + n * i);
+}
+}
+```
+----------------------------------------
+
+
+# Question 18
+
+### **Question:**
+
+> ***Write a program to print the product of the first 10 digits.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int i, product = 1;
+for( i=1; i<=10; i++)
+product = product * i;
+System.out.println("The product of the first 10 digits = " + product);
+}
+}
+```
+----------------------------------------
+
+# Question 19
+
+### **Question:**
+
+> ***Write a program to print whether the given number is positive or negative.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int a;
+a = -35;
+if(a>0)
+{
+System.out.println("Number is positive");
+}
+else
+{
+System.out.println("Number entered is negative");
+}
+}
+}
+```
+----------------------------------------
+
+# Question 20
+
+### **Question:**
+
+> ***Write a program to check the equivalence of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+int x, y;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number: ");
+x = scan.nextInt();
+System.out.println("Enter a number: ");
+y = scan.nextInt();
+if(x-y==0)
+{
+System.out.println("The two numbers are equivalent");
+}
+else
+{
+System.out.println("The two numbers are not equivalent");
+}
+}
+}
+```
+----------------------------------------
+
+# Question 21
+
+### **Question:**
+
+> ***Write a program to print the remainder of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+int a, b, c;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number: ");
+a = scan.nextInt();
+System.out.println("Enter a number: ");
+b = scan.nextInt();
+c = a%b;
+System.out.println("The remainder of a and b = " + c);
+}
+}
+```
+----------------------------------------
+
