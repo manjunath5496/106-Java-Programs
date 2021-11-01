@@ -1941,6 +1941,55 @@ public class MyClass {
 
 
 
+# Question 62
+
+### **Question:**
+
+> ***Write a program to search the substring in a given String.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass
+{
+	public static void main(String[] args) {
+	String name="Java is a powerful general-purpose programming language";  
+    System.out.println(name.contains("Java"));  
+    System.out.println(name.contains("programming"));  
+    System.out.println(name.contains("language"));  
+	}
+}
+
+```
+----------------------------------------
+
+# Question 63
+
+### **Question:**
+
+> ***Write a program to check if the string ends with a given suffix.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass
+{
+	public static void main(String[] args) {
+String a="Java Programming";  
+System.out.println(a.endsWith("g"));  
+	}
+}
+
+
+```
+----------------------------------------
+
+
+
 
 
 
