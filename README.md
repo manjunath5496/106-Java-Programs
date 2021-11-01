@@ -411,3 +411,75 @@ System.out.println("Average of the Elements in the array = " + avg);
 ```
 ----------------------------------------
 
+
+# Question 14
+
+### **Question:**
+
+> ***Write a program to Divide Two Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+	public static void main(String[] args) {
+	int a, b, result;
+    a=6;
+    b=2;
+    result = a / b;
+    System.out.println("The Division of a and b = " + result);
+	}
+}
+
+```
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+	    int num1, num2, result;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        num1 = sc.nextInt();
+        
+        System.out.println("Enter Second Number: ");
+        num2 = sc.nextInt();
+        
+        sc.close();
+        result = num1 / num2;
+        System.out.println("Division of " + num1 + " and " + num2 +" is : "+result);
+	}
+}
+
+
+```
+
+----------------------------------------
+
+# Question 15
+
+### **Question:**
+
+> ***Write a program to print the first 10 numbers starting from one together with their squares and cubes.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String[] args) throws Exception {
+int i;
+for( i=1; i<=10; i++)
+System.out.println(" \n number = " + i + " its square = " + i*i + " its cube = " + i*i*i);
+}
+}
+```
+----------------------------------------
+
+
