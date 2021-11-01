@@ -1993,4 +1993,82 @@ System.out.println(a.endsWith("g"));
 
 
 
+# Question 64
+
+### **Question:**
+
+> ***Write a program to check if the string starts with the given prefix.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass
+{
+	public static void main(String[] args) {
+String a="Java Programming";    
+System.out.println(a.startsWith("j"));    
+System.out.println(a.startsWith("J"));    
+	}
+}
+
+```
+----------------------------------------
+
+# Question 65
+
+### **Question:**
+
+> ***Write a program that reads a set of integers, and then prints the sum of the even and odd integers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass
+{
+    public static void main(String[] args)
+    {
+        Scanner console = new Scanner(System.in);
+     
+        int num;
+        char choice;
+        int a = 0;
+        int b = 0;
+        
+        do
+        {
+            System.out.print("Enter a integer:  ");
+            num = console.nextInt();
+        
+            if( num % 2 == 0)
+            {
+                a = a + num;
+            }
+            else
+            {
+                b = b + num;
+            }
+        
+            System.out.print("Do you want to continue y/n? ");
+            choice = console.next().charAt(0);
+            
+        }while(choice=='y' || choice == 'Y');
+        
+        System.out.println("Sum of entered even numbers: " + a);
+        System.out.println("Sum of entered odd numbers: " + b);
+    }  
+}
+
+```
+----------------------------------------
+
+
+
+
+
 
