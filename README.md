@@ -1622,6 +1622,91 @@ public class MyClass {
 
 
 
+# Question 51
+
+### **Question:**
+
+> ***Write a program:</br>
+If you enter a character M</br>
+Output must be: ch = M.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String[] args) throws Exception {
+char c;
+System.out.print("Enter a character:");
+c = (char)System.in.read();
+System.out.println("ch= " + c);
+}
+}
+```
+----------------------------------------
+
+
+# Question 52
+
+### **Question:**
+
+> ***Write a program to Reverse a Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        int num = 1234, reversed = 0;
+
+        while(num != 0) {
+            int digit = num % 10;
+            reversed = reversed * 10 + digit;
+            num /= 10;
+        }
+
+        System.out.println("Reversed Number: " + reversed);
+    }
+}
+```
+----------------------------------------
+
+
+# Question 53
+
+### **Question:**
+
+> ***Write a program to find the occurrence (Frequency) of a character in a given string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        String str = "This website is awesome.";
+        char ch = 'e';
+        int frequency = 0;
+
+        for(int i = 0; i < str.length(); i++) {
+            if(ch == str.charAt(i)) {
+                ++frequency;
+            }
+        }
+
+        System.out.println("Frequency of " + ch + " = " + frequency);
+    }
+}
+```
+----------------------------------------
+
 
 
 
