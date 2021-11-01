@@ -2347,15 +2347,15 @@ public class  MyClass {
   ch=p.next().charAt(0);
   if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
   {
-   System.out.println(ch+" is Alphabet");
+   System.out.println(ch+" is Alphabet.");
   }
   else if(ch>='0'&&ch<='9')
   {
-   System.out.println(ch+" is Digit");
+   System.out.println(ch+" is Digit.");
   }
   else
   {
-   System.out.println(ch+" is Special Character");
+   System.out.println(ch+" is Special Character.");
   }
  }
 }
