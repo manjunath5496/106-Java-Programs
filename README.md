@@ -761,3 +761,173 @@ System.out.println("\n " + a);
 ```
 ----------------------------------------
 
+
+# Question 26
+
+### **Question:**
+
+> ***Write a program to Find the Volume of Cuboid.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+System.out.println("Enter the length of cuboid:");
+double l=s.nextDouble();
+System.out.println("Enter the width of Cubiod:");
+double w=s.nextDouble();
+System.out.println("Enter height of Cubiod:");
+double h=s.nextDouble();
+                
+	
+       
+                 double  volume= l*w*h;
+ 
+             System.out.println("Volume Of Cuboid is:" +volume);
+ 
+	}
+}
+
+```
+----------------------------------------
+
+
+# Question 27
+
+### **Question:**
+
+> ***Write a program to read 10 numbers from the keyboard and find their sum and average.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+int N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, sum;
+float X;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter any ten Numbers: ");
+N1 = scan.nextInt();
+N2 = scan.nextInt();
+N3 = scan.nextInt();
+N4 = scan.nextInt();
+N5 = scan.nextInt();
+N6 = scan.nextInt();
+N7 = scan.nextInt();
+N8 = scan.nextInt();
+N9 = scan.nextInt();
+N10 = scan.nextInt();
+sum = N1 + N2 + N3 + N4 + N5 + N6 + N7 + N8 + N9 + N10;
+X = sum /10;
+System.out.println("The sum of 10 numbers = " + sum);
+System.out.println("The average of 10 numbers = " + X);
+}
+}
+```
+----------------------------------------
+
+
+# Question 28
+
+### **Question:**
+
+> ***Write a program to Find the largest of three numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+int a, b, c;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter any number:");
+a = scan.nextInt();
+System.out.println("Enter any number:");
+b = scan.nextInt();
+System.out.println("Enter any number:");
+c = scan.nextInt();
+if(a>b&&a>c)
+{
+System.out.println("a is greater than b and c");
+}
+else if(b>a&&b>c)
+{
+System.out.println("b is greater than a and c");
+}
+else
+{
+System.out.println("c is greater than b and a");
+}
+}
+}    
+```
+----------------------------------------
+
+
+# Question 29
+
+### **Question:**
+
+> ***Write a program to find the incremented and decremented values of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int a, b, c, d, e, f;
+a = 10;
+b=12;
+c=a+1;
+d=b+1;
+e=a-1;
+f=b-1;
+System.out.print("The incremented value of a = "+ c);
+System.out.print("The incremented value of b = "+ d);
+System.out.print("The decremented value of a = "+ e);
+System.out.print("The decremented value of b = "+ f);
+}
+}
+```
+----------------------------------------
+
+
+# Question 30
+
+### **Question:**
+
+> ***Write a program to calculate the simple interest.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int P,T, R, SI;
+P = 1000;
+T = 2;
+R = 3;
+SI = P*T*R/100;
+System.out.println("The simple interest = " + SI);
+}
+}
+```
+----------------------------------------
+
