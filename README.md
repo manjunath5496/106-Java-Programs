@@ -2323,3 +2323,42 @@ public class MyClass {
 
 ```
 ----------------------------------------
+
+
+# Question 72
+
+### **Question:**
+
+> ***Write a program to check whether a character is alphabet, digit or special character.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class  MyClass {
+
+ public static void main(String[] args) 
+ {
+  char ch;
+  Scanner p=new Scanner(System.in);
+  System.out.print("Enter a character : ");
+  ch=p.next().charAt(0);
+  if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+  {
+   System.out.println(ch+" is Alphabet");
+  }
+  else if(ch>='0'&&ch<='9')
+  {
+   System.out.println(ch+" is Digit");
+  }
+  else
+  {
+   System.out.println(ch+" is Special Character");
+  }
+ }
+}
+
+```
+----------------------------------------
