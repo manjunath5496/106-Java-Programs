@@ -1301,7 +1301,7 @@ public class MyClass {
 
 ### **Question:**
 
-> ***Write a program to Swap Two Numbers.***
+> ***Write a program to Swap Two Numbers without using temporary variable.***
 
 ---------------------------------------
 
