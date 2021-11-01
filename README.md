@@ -2894,3 +2894,27 @@ public class MyClass
 
 ```
 ----------------------------------------
+# Question 88
+
+### **Question:**
+
+> ***Write a program to replace the spaces of a string with a specific character.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass   
+{    
+    public static void main(String[] args) {    
+        String a = "Java Programming";    
+        char ch = '-';    
+        a = a.replace(' ', ch);    
+            
+        System.out.println("String after replacing spaces with the character '-': ");    
+        System.out.println(a);    
+    }    
+}      
+```
+----------------------------------------
