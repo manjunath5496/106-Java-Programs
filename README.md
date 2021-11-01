@@ -196,5 +196,70 @@ public class MyClass {
 
 ```
 ----------------------------------------
+# Question 7
+
+### **Question:**
+
+> ***Write a program to calculate Perimeter Of Circle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+	Scanner s= new Scanner(System.in);
+        
+    System.out.println("Enter the radius:");
+         
+	 double r= s.nextDouble();
+         
+	 double  c=2*3.14*r;
+      
+	 System.out.println("Perimeter of Circle is: " +c);    
+	}
+}
+
+```
+----------------------------------------
+
+
+# Question 8
+
+### **Question:**
+
+> ***Write a program to calculate Volume of Cone.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+	Scanner s= new Scanner(System.in);
+           System.out.println("Enter the radius of cone: ");
+         	double r=s.nextDouble();
+                System.out.println("Enter the height of cone: ");
+         	double h=s.nextDouble();
+	
+       
+            double  volume=(3.14*r*r*h)/3;
+ 
+             System.out.println("Volume Of Cone is: " +volume);   
+	}
+}
+
+
+```
+----------------------------------------
+
 
 
