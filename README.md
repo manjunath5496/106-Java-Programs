@@ -2730,3 +2730,137 @@ public static void main(String args[])
 
 ```
 ----------------------------------------
+
+
+
+# Question 84
+
+### **Question:**
+
+> ***Write a program to find highest common factor of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        int i, num1, num2, min, hcf=1;
+
+      
+        System.out.print("Enter two numbers : ");
+        num1 = scanner.nextInt();
+        num2 = scanner.nextInt();
+
+       
+        min = num1;
+        if(num2 < num1) {
+            min = num2;
+        }
+
+        for(i = 1; i <= min; i++) {
+
+            if((num1 % i) == 0 && (num2 % i) == 0) {
+                hcf = i;
+            }
+        }
+
+        System.out.println("\n Highest Common Factor of " + num1 + " and " + num2  + " is : " + hcf);
+    }
+
+}
+```
+----------------------------------------
+
+
+
+# Question 85
+
+### **Question:**
+
+> ***Write a program to calculate sum of first N odd numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter the value of N : ");
+        int n = scanner.nextInt();
+
+        int sum = 0;
+
+        for(int i = 1; i <= n; i++) {
+
+            if((i % 2) != 0) {
+
+                sum = sum + i;
+
+            }
+        }
+
+        System.out.println("\nSum of odd numbers from 1 to " + n + " is : " + sum);
+    }
+
+}
+```
+----------------------------------------
+
+
+
+# Question 86
+
+### **Question:**
+
+> ***Write a program to calculate sum of first N even numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+    
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        int i, n, sum = 0;
+
+        System.out.print("Enter the value of N : ");
+        n = scanner.nextInt();
+
+        for(i = 1; i <= n; i++) {
+
+            if((i % 2) == 0) {
+
+                sum += i;
+
+            }
+        }
+
+        System.out.println("\nSum of even numbers from 1 to " + n + " is : " + sum);
+
+    }
+
+}
+
+```
+----------------------------------------
