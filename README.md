@@ -1273,3 +1273,242 @@ System.out.println(" \n " + i++);
 }
 ```
 ----------------------------------------
+
+
+# Question 44
+### **Question:**
+
+> ***Write a program to split a sentence into words.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+  public static void main(String[] args) {
+   String str = "Hey this is John";
+  String [] arrOfStr = str. split(" ", 3);
+  for (String a : arrOfStr)
+  System. out. println(a);
+  }
+}
+
+```
+----------------------------------------
+
+# Question 45
+
+### **Question:**
+
+> ***Write a program to Swap Two Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        float first = 12.0f, second = 24.5f;
+
+        System.out.println("Before swapping: ");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+
+        first = first - second;
+        second = first + second;
+        first = second - first;
+
+        System.out.println("After swapping: ");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+    }
+}
+```
+----------------------------------------
+
+
+
+# Question 46
+
+### **Question:**
+
+> ***Write a program to Find ASCII Value of a character.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        char ch = 'a';
+        int ascii = ch;
+        
+        int castAscii = (int) ch;
+
+        System.out.println("The ASCII value of " + ch + " is: " + ascii);
+        System.out.println("The ASCII value of " + ch + " is: " + castAscii);
+    }
+    }
+
+```
+----------------------------------------
+
+
+# Question 47
+
+### **Question:**
+
+> ***What would be the output of the following programs:***
+
+----------------------------------------
+
+```Java
+public class MyClass {
+public static void main(String []args) {
+int i;
+for (i=1; i<=5; i++) {
+if (i==3) {
+break;
+}
+System.out.println("" + i);
+}
+}
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+1
+2
+```
+----------------------------------------
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int x = 2;
+System.out.println(" Square of a number = " + Math.pow((x), 2));
+}
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+Square of a number = 4.0
+```
+----------------------------------------
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int i = 54;
+int y = i<<1;
+System.out.println("The value of y = " + y);
+}
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+The value of y = 108
+```
+----------------------------------------
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int i = 54;
+int y = i>>1;
+System.out.println("The value of y = " + y);
+}
+}
+
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+The value of y = 27
+```
+----------------------------------------
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+String m;
+Scanner in = new Scanner(System.in);
+System.out.print("Enter the name: ");
+m = in.nextLine();
+System.out.println("The name you entered = " + m);
+}
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+Enter the name:
+Dennis
+The name you entered = Dennis
+```
+----------------------------------------
+
+```Java
+public class MyClass {
+public static void main(String[] args) {
+for( ; ; ) 
+{
+System.out.println("This loop will run forever.\n");
+}
+}
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+This loop will run forever.
+This loop will run forever.
+This loop will run forever.
+This loop will run forever.
+This loop will run forever.
+This loop will run forever. ......... 
+```
+----------------------------------------
+
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+System.out.println("Hello, World!");
+System.exit(0); 
+System.out.println("Hello, World!");
+}
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+Hello,world! 
+```
+----------------------------------------
+
