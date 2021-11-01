@@ -1892,6 +1892,33 @@ System.out.println(replaceString);
 
 
 
+# Question 60
+
+### **Question:**
+
+> ***Write a program to check if the input string is empty or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+	public static void main(String[] args) {
+		String a="";  
+        String b="Java";  
+  
+     System.out.println(a.isEmpty());  
+     System.out.println(b.isEmpty());  
+	}
+}
+
+```
+----------------------------------------
+
+
+
 
 
 
