@@ -2129,5 +2129,70 @@ public class MyClass {
 
 
 
+# Question 67
+
+### **Question:**
+
+> ***Write a program to print size of different datatypes.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+ public static void main(String[] args) {
+
+        System.out.println("Type          Size (bytes)");
+        System.out.println("Character       " + Character.BYTES);
+        System.out.println("Byte            " + Byte.BYTES);
+        System.out.println("Integer         " + Integer.BYTES);
+        System.out.println("Long            " + Long.BYTES);
+        System.out.println("Short           " + Short.BYTES);
+        System.out.println("Double          " + Double.BYTES);
+        System.out.println("Float           " + Float.BYTES);
+    }
+}
+
+```
+----------------------------------------
+
+
+# Question 68
+
+### **Question:**
+
+> ***Write a program to check whether a character is alphabet or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter any caracter : ");
+        char c = scanner.next().charAt(0);
+
+        if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
+
+            System.out.println(c + " is a Alphabet.");
+
+        } else {
+
+            System.out.println(c + " is not a Alphabet.");
+
+        }
+    }
+}
+
+```
+----------------------------------------
 
 
