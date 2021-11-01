@@ -482,4 +482,35 @@ System.out.println(" \n number = " + i + " its square = " + i*i + " its cube = "
 ```
 ----------------------------------------
 
+# Question 16
+
+### **Question:**
+
+> ***Write a program to Calculate the Perimeter Of Square.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+	 Scanner s= new Scanner(System.in);
+        
+    System.out.println("Enter the side of the square:");
+         
+	 double a= s.nextDouble();
+	 
+    double  perimeter=4*a;
+     
+	 System.out.println("Perimeter of Square is: " + perimeter);  
+	}
+}
+
+```
+----------------------------------------
+
 
