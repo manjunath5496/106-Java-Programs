@@ -1148,3 +1148,52 @@ System.out.println("not a senior citizen");
 }
 ```
 ----------------------------------------
+
+
+# Question 39
+
+### **Question:**
+
+> ***Write a program to Get Current Date/Time.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {
+
+    public static void main(String[] args) {
+        LocalDateTime current = LocalDateTime.now();
+
+        System.out.println("Current Date and Time is: " + current);
+    }
+}
+```
+----------------------------------------
+
+# Question 40
+
+### **Question:**
+
+> ***Write a program to Get Current Working Directory.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        String path = System.getProperty("user.dir");
+        
+        System.out.println("Working Directory = " + path);
+
+    }
+}
+```
+----------------------------------------
+
