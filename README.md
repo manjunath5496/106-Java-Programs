@@ -1795,6 +1795,51 @@ public class Main {
 
 
 
+# Question 56
+
+### **Question:**
+
+> ***Write a program to convert lowercase string to uppercase.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+  public static void main(String[] args) {
+    String a = "hello world";
+    System.out.println(a.toUpperCase());
+    
+  }
+}
+
+```
+----------------------------------------
+
+
+# Question 57
+
+### **Question:**
+
+> ***Write a program to convert uppercase string to lowercase.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+  public static void main(String[] args) {
+    String a = "HELLO WORLD";
+    System.out.println(a.toLowerCase());
+  }
+}
+
+```
+----------------------------------------
+
+
 
 
 
