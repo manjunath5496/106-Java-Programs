@@ -2448,3 +2448,180 @@ import java.lang.*;
 
 ```
 ----------------------------------------
+
+
+
+# Question 76
+
+### **Question:**
+
+> ***Write a program to Measure how long code takes to execute in nanoseconds.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.lang.*;
+ public class MyClass {
+ public static void main(String[] args)
+ {    
+    long startTime = System.nanoTime(); 
+	
+	int i;
+	System.out.println ("The first 5 natural numbers are:\n");
+	for (i=1;i<=5;i++)
+	{      
+		System.out.println (i);
+	}
+		long estimatedTime = System.nanoTime() - startTime;
+	System.out.println("Estimated time (in nanoseconds) to get the first 5 natural numbers: "+estimatedTime);
+  }
+}
+
+```
+----------------------------------------
+
+
+# Question 77
+
+### **Question:**
+
+> ***Write a program to convert centimeter to meter and kilometer.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String args[])
+{
+    double cm, meter, km;
+    Scanner op=new Scanner(System.in);
+  
+    System.out.print("Enter length in centimeter: ");
+    cm=op.nextDouble();
+
+    meter = cm / 100.0;
+    km    = cm / 100000.0;
+
+    System.out.println("Length in Meter = "+ meter+" m ");
+    System.out.println("Length in Kilometer = "+km+" km");
+    }
+}
+
+```
+----------------------------------------
+
+
+
+# Question 78
+
+### **Question:**
+
+> ***Write a program to convert temperature from degree Celsius to Fahrenheit.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass
+{
+public static void main(String args[])
+{
+    double celsius, fahrenheit;
+    Scanner op=new Scanner(System.in);
+ 
+    System.out.print("Enter temperature in Celsius: ");
+    celsius=op.nextDouble();
+
+
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    System.out.print(celsius+" Celsius = "+fahrenheit+" Fahrenheit");
+}
+}
+
+```
+----------------------------------------
+
+
+
+# Question 79
+
+### **Question:**
+
+> ***Write a program to convert temperature from degree Fahrenheit to Celsius.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass
+{
+public static void main(String args[])
+{
+    double celsius, fahrenheit;
+    Scanner op=new Scanner(System.in);
+   
+    System.out.print("Enter temperature in Fahrenheit: ");
+    fahrenheit=op.nextDouble();
+
+    celsius = (fahrenheit - 32) * 5 / 9;
+
+    System.out.println(fahrenheit+" Fahrenheit = "+celsius+" Celsius");
+
+}
+}
+
+```
+----------------------------------------
+
+
+# Question 80
+
+### **Question:**
+
+> ***Write a program to convert number of days to years weeks and days.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass
+{
+public static void main(String args[])
+{
+    int days, years, weeks;
+    Scanner op=new Scanner(System.in);
+ 
+    System.out.print("Enter the number of days: ");
+    days=op.nextInt();
+
+
+    years = (days / 365);  
+    weeks = (days % 365) / 7;
+    days  = days - ((years * 365) + (weeks * 7));
+
+    /* Print all resultant values */
+    System.out.println("Years: "+years);
+    System.out.println("Weeks: "+weeks);
+    System.out.println("Days:  "+days);
+}
+}
+
+```
+----------------------------------------
+
+
