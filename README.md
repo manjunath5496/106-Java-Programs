@@ -2196,3 +2196,83 @@ public class MyClass {
 ----------------------------------------
 
 
+
+# Question 69
+
+### **Question:**
+
+> ***Write a program to Check Whether an Alphabet is Vowel or Consonant.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a alphabet : ");
+        char ch = scanner.next().charAt(0);
+	    if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ) {
+            System.out.println(ch + " is vowel");
+	    }
+        else {
+            System.out.println(ch + " is consonant");
+        }
+	    
+	    
+		
+	}
+}
+
+
+```
+----------------------------------------
+
+
+
+# Question 70
+
+### **Question:**
+
+> ***Write a program to swap two numbers using temporary variable.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the First number : ");
+        int a = scanner.nextInt();
+
+        System.out.println("Enter the Second number : ");
+        int b = scanner.nextInt();
+
+        System.out.println("Before swapping: a = " + a + " b = " + b);
+
+        
+        int temp = a;
+
+        a = b;
+        b = temp;
+
+        System.out.println("After swapping: a = " + a + " b = " + b);
+
+    }
+}
+
+```
+----------------------------------------
+
+
