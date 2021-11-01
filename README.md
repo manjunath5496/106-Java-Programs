@@ -1841,6 +1841,57 @@ public class MyClass {
 
 
 
+# Question 58
+
+### **Question:**
+
+> ***Write a program to concate multiple strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+  public static void main(String[] args) {
+        String str1 = "Programming";  
+        String str2 = "-in";  
+        String str3 = "-Java";  
+  
+        String str4 = str1.concat(str2).concat(str3);  
+        System.out.println(str4);  
+  }
+}
+
+```
+----------------------------------------
+
+
+# Question 59
+
+### **Question:**
+
+> ***Write a program to replace all occurrences of 'a' to 'e' in a string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {  
+public static void main(String args[]){  
+String s1="Java is a powerful general-purpose programming language.";  
+String replaceString=s1.replace('a','e'); 
+System.out.println(replaceString);      
+}   
+}  
+
+```
+----------------------------------------
+
+
+
+
 
 
 
