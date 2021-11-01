@@ -650,3 +650,114 @@ System.out.println("The remainder of a and b = " + c);
 ```
 ----------------------------------------
 
+
+# Question 22
+
+### **Question:**
+
+> ***Write a program to Find Perimeter Of Rectangle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+	 Scanner s= new Scanner(System.in);
+        
+     System.out.println("Enter the length of the Rectangle:");
+         
+	 double l= s.nextDouble();
+	 
+	 System.out.println("Enter the breadth of the Rectangle:");
+         
+	 double b= s.nextDouble();
+          
+         double  perimeter=2*(l+b);
+      
+	 System.out.println("Perimeter of Rectangle is: " + perimeter);  
+	}
+}
+```
+----------------------------------------
+
+
+# Question 23
+
+### **Question:**
+
+> ***Write a program To print "hello world" 10 times.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int i;
+for (i =1; i<=10; i ++)
+System.out.println("\n hello world");
+}
+}
+```
+----------------------------------------
+
+
+
+# Question 24
+
+### **Question:**
+
+> ***Write a program to print the given number is even or odd.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+int a;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number: ");
+a = scan.nextInt();
+if(a%2 == 0)
+{
+System.out.println("The number is even");
+}
+else
+{
+System.out.println("The number is odd");
+}
+}
+}
+```
+----------------------------------------
+
+# Question 25
+
+### **Question:**
+
+> ***Write a program to print the characters from A to Z.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+char a;
+for( a='A'; a<='Z'; a++)
+System.out.println("\n " + a);
+}
+}
+```
+----------------------------------------
+
