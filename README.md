@@ -263,3 +263,55 @@ public class MyClass {
 
 
 
+
+# Question 9
+
+### **Question:**
+
+> ***Write a program to find the square of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int a, b;
+a=2;
+b = a * a;
+System.out.println("The square of a = " + b);
+}
+}
+```
+----------------------------------------
+
+# Question 10
+
+### **Question:**
+
+> ***Write a program to find the greatest of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int a, b;
+a=2;
+b =3;
+if(a>b)
+{
+System.out.println("a is greater than b");
+}
+else
+{
+System.out.println("b is greater than a");
+}
+}
+}
+```
+----------------------------------------
+
