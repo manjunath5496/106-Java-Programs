@@ -2625,3 +2625,63 @@ public static void main(String args[])
 ----------------------------------------
 
 
+
+
+# Question 81
+
+### **Question:**
+
+> ***Write a program to Calculate the Power of a Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+ public static void main(String[] args) {
+
+  int a = 2, b = 3;
+  double pow = Math.pow(a, b);
+
+  System.out.println("2 to the power of 3: " + pow);
+ }
+}
+
+```
+----------------------------------------
+
+
+# Question 82
+
+### **Question:**
+
+> ***Write a program to Compute Third angle of the triangle if two angles are given.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String args[])
+{
+    int a, b, c;
+    Scanner op=new Scanner(System.in);
+
+    System.out.print("Enter First angle of the triangle: ");
+    a=op.nextInt();
+    System.out.print("Enter Second angle of the triangle: ");
+    b=op.nextInt();;
+
+
+    c = 180 - (a + b);
+
+    System.out.println("Third angle of the triangle = "+c);
+}
+}
+```
+----------------------------------------
+
