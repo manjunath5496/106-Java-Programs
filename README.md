@@ -2057,7 +2057,7 @@ public class MyClass
             System.out.print("Do you want to continue y/n? ");
             choice = console.next().charAt(0);
             
-        }while(choice=='y' || choice == 'Y');
+        } while(choice=='y' || choice == 'Y');
         
         System.out.println("Sum of entered even numbers: " + a);
         System.out.println("Sum of entered odd numbers: " + b);
