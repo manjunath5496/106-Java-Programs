@@ -1906,7 +1906,7 @@ System.out.println(replaceString);
 public class MyClass {
 
 	public static void main(String[] args) {
-		String a="";  
+	String a="";  
         String b="Java";  
   
      System.out.println(a.isEmpty());  
