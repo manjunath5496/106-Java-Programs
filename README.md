@@ -1197,3 +1197,79 @@ public class MyClass {
 ```
 ----------------------------------------
 
+
+# Question 41
+
+### **Question:**
+
+> ***Write a program to illustrate try-catch statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+  public static void main(String[] args) {
+    try {
+      int[] num = {1, 2, 3};
+      System.out.println(num[3]);
+    } catch (Exception e) {
+      System.out.println("Something went wrong.");
+    }
+  }
+}
+
+```
+----------------------------------------
+
+# Question 42
+
+### **Question:**
+
+> ***Write a program to print the output:</br>
+body [b] = b</br>
+body [o] = o</br>
+body [d] = d</br>
+body [y] = y</br>***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String[] args) throws Exception{
+int i;
+char [] body = {'b', 'o', 'd', 'y'};
+for(i=0; i<4; i++)
+System.out.println("body [" + body [i] + " ] = " + body [i]);
+}
+}
+```
+----------------------------------------
+
+
+
+# Question 43
+
+### **Question:**
+
+> ***Write a program to print first 5 numbers using do while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int i =1;
+do
+{
+System.out.println(" \n " + i++);
+} while (i<=5);
+}
+}
+```
+----------------------------------------
