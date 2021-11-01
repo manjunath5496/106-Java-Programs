@@ -931,3 +931,114 @@ System.out.println("The simple interest = " + SI);
 ```
 ----------------------------------------
 
+
+
+
+# Question 31
+
+### **Question:**
+
+> ***Write a program to print the factorial of the entered number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String []args){
+int i, n, fact=1 ;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter any number:");
+n = scan.nextInt();      
+for(i = 1; i <= n; i++)
+        {
+            fact = fact * i;
+        }
+        System.out.println("Factorial of " + n + " is: " + fact);
+     }
+}
+```
+----------------------------------------
+
+# Question 32
+
+### **Question:**
+
+> ***Write a program to print the length of the entered string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String[] args) {
+String a;
+Scanner scan = new Scanner(System.in);
+System.out.print("Enter Your Name : ");
+      a = scan.nextLine();
+System.out.println("The length of the String is: " + a.length());
+}
+}
+```
+----------------------------------------
+
+# Question 33
+
+### **Question:**
+
+> ***Write a program to print the output:</br>
+Einstein [0] = E</br>
+Einstein [1] = I</br>
+Einstein [2] = N</br>
+Einstein [3] = S</br>
+Einstein [4] = T</br>
+Einstein [5] = E</br>
+Einstein [6] = I</br>
+Einstein [7] = N</br>***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String[] args) throws Exception{
+int i;
+char [] num = {'E' , 'I', 'N', 'S', 'T', 'E', 'I', 'N'};
+for(i=0; i<8; i++)
+System.out.println("Einstein [" + i + " ] = " + num[i]);
+}
+}
+```
+----------------------------------------
+
+# Question 34
+
+### **Question:**
+
+> ***Write a program to find square of a number using method.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+public class MyClass {
+public static void main(String[] args) {
+int x;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter any number: ");
+x = scan.nextInt();
+System.out.println("Square of the number = " + square (x));
+}
+public static int square (int x){
+return x*x;
+}
+}
+```
+----------------------------------------
