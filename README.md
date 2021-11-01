@@ -315,3 +315,76 @@ System.out.println("b is greater than a");
 ```
 ----------------------------------------
 
+
+
+
+# Question 11
+
+### **Question:**
+
+> ***Write a program to compute the difference between two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+	int num1, num2, difference;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        num1 = sc.nextInt();
+        
+        System.out.println("Enter Second Number: ");
+        num2 = sc.nextInt();
+        
+        sc.close();
+        difference = num1 - num2;
+        System.out.println("Difference between " + num1 + " and " + num2 +" is : "+ difference); 
+	}
+}
+
+```
+----------------------------------------
+
+
+# Question 12
+
+### **Question:**
+
+> ***Write a program to compute the product of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+	int num1, num2, product;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        num1 = sc.nextInt();
+        
+        System.out.println("Enter Second Number: ");
+        num2 = sc.nextInt();
+        
+        sc.close();
+        product = num1 * num2;
+        System.out.println("Product of " + num1 + " and " + num2 +" is : "+ product); 
+	}
+}
+
+
+```
+----------------------------------------
+
+
+
