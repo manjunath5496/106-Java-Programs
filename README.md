@@ -1042,3 +1042,109 @@ return x*x;
 }
 ```
 ----------------------------------------
+
+# Question 35
+
+### **Question:**
+
+> ***Write a program to illustrate .equals() method.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		String s1 = "C++ Programming";
+        String s2 = "C++ Programming";
+        String s3 = "Java Programming";
+        System.out.println(s1 == s2); 
+        System.out.println(s1 == s3);
+        System.out.println(s1.equals(s2)); 
+        System.out.println(s1.equals(s3)); 
+	}
+ 
+	}
+
+
+```
+----------------------------------------
+
+
+# Question 36
+
+### **Question:**
+
+> ***Write a program to print the first ten natural numbers using while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int i = 1;
+while (i<=10)
+{
+System.out.println("\n " + i++);
+}
+}
+}
+
+```
+----------------------------------------
+
+
+# Question 37
+
+### **Question:**
+
+> ***Write a program to find the size of an array.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String[] args) {
+   int num [] = {11, 22, 33, 44, 55, 66};
+	System.out.println("Size of the array is: " + num.length);
+}
+}
+```
+----------------------------------------
+
+
+# Question 38
+
+### **Question:**
+
+> ***Write a program to check whether the person is a senior citizen or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+public static void main(String [] args) {
+int age;
+age=20;
+if(age>= 60)
+{
+System.out.println("senior citizen");
+}
+else
+{
+System.out.println("not a senior citizen");
+}
+}
+}
+```
+----------------------------------------
