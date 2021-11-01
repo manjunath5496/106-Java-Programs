@@ -1710,6 +1710,91 @@ public class MyClass {
 
 
 
+# Question 54
+
+### **Question:**
+
+> ***Write a program to illustrate .trim() method.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+	public static void main(String[] args) {
+	String s1="Hello  "; 
+	//without .trim() method 
+    System.out.println(s1+"World!");
+    //with .trim() method 
+   System.out.println(s1.trim()+"World!");
+	}
+}
+
+```
+----------------------------------------
+
+
+# Question 55
+
+### **Question:**
+
+> ***Write a program to enter the numbers till the user wants and at the end it should display the number of positive, negative and zeros entered.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args)
+    {
+        Scanner console = new Scanner(System.in);
+        
+        int num,          
+            a = 0, 
+            b = 0,
+            c = 0;
+
+        char choice;
+	
+        do
+        {
+            System.out.print("Enter a integer : ");
+            num = console.nextInt();
+        
+            if(num > 0)
+            {
+                a++;
+            }
+            else if(num < 0)
+            {
+                b++;
+            }
+            else
+            {
+                c++;
+            }
+        
+            System.out.print("Do you want to continue y/n? ");
+            choice = console.next().charAt(0);
+            
+        } while(choice=='y' || choice == 'Y');
+        
+        System.out.println("Number of Positive integers Entered : " + a);
+        System.out.println("Number of Negative integers Entered : " + b);
+        System.out.println("Number of Zeros Entered : " + c);
+    }  
+}
+
+```
+----------------------------------------
+
+
+
 
 
 
