@@ -1538,6 +1538,88 @@ System.out.println("" + i);
 ----------------------------------------
 
 
+# Question 48
+
+### **Question:**
+
+> ***Write a program to Remove All Whitespaces from a String.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        String sentence = "T    his is b  ett     er.";
+        System.out.println("Original sentence: " + sentence);
+
+        sentence = sentence.replaceAll("\\s", "");
+        System.out.println("After replacement: " + sentence);
+    }
+}
+```
+----------------------------------------
+
+
+
+# Question 49
+
+### **Question:**
+
+> ***Write a program to compare two strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        String style = "Bold";
+        String style2 = "Bold";
+
+        if(style == style2)
+            System.out.println("Equal");
+        else
+            System.out.println("Not Equal");
+    }
+}
+```
+----------------------------------------
+
+
+
+# Question 50
+
+### **Question:**
+
+> ***Write a program to separate the Individual Characters from a String.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {  
+    public static void main(String[] args) {  
+        String string = "characters ";  
+  
+        //Displays individual characters from given string  
+        System.out.println("Individual characters from given string: ");  
+  
+        //Iterate through the string and display individual character  
+        for(int i = 0; i < string.length(); i++){  
+            System.out.print(string.charAt(i) + " ");  
+        }  
+    }  
+}  
+```
+----------------------------------------
+
 
 
 
