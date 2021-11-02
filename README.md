@@ -2984,7 +2984,7 @@ System.out.println(Integer.toHexString(289));
 <strong>Solution: </strong>
 
 ```Java
-public class Main {  
+public class MyClass {  
 public static void main(String args[]){  
   
 System.out.println(Integer.toOctalString(8));  
@@ -2997,5 +2997,27 @@ System.out.println(Integer.toOctalString(81));
 ```
 ----------------------------------------
 
+# Question 92
+
+### **Question:**
+
+> ***Write a program to Convert Decimal to Binary.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {  
+public static void main(String args[]){  
+System.out.println(Integer.toBinaryString(10));  
+System.out.println(Integer.toBinaryString(21));  
+System.out.println(Integer.toBinaryString(31));  
+}
+    
+}          
+```
+----------------------------------------
 
 
