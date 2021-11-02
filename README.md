@@ -3430,3 +3430,40 @@ System.out.println("Access Denied! Try again");
          
 ```
 ----------------------------------------
+
+
+
+# Question 104
+
+### **Question:**
+
+> ***Write a program to illustrate the ternary operation.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass
+{
+	public static void main(String[] args) {
+	    
+ /* 
+
+c will be assigned the value of a
+if a is less than b. 
+Otherwise, it will be assigned the value of b
+
+*/
+
+    int a = 30, b = 20, c;
+
+    c = (a < b) ? a : b;
+	System.out.println(c);
+	}
+}
+
+         
+```
+----------------------------------------
