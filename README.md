@@ -3020,4 +3020,25 @@ System.out.println(Integer.toBinaryString(31));
 ```
 ----------------------------------------
 
+# Question 93
+
+### **Question:**
+
+> ***Write a program to Convert Binary to Decimal.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {  
+public static void main(String args[]){  
+String a="1010";  
+int decimal=Integer.parseInt(a,2);  
+System.out.println(decimal);  
+}
+}           
+```
+----------------------------------------
 
