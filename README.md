@@ -3041,4 +3041,27 @@ System.out.println(decimal);
 }           
 ```
 ----------------------------------------
+# Question 94
+
+### **Question:**
+
+> ***Write a program to Convert Hexadecimal to Decimal.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {  
+public static void main(String args[]){  
+String hex="a";  
+int decimal=Integer.parseInt(hex,16);  
+System.out.println(decimal);  
+}
+    
+}            
+```
+----------------------------------------
+
 
