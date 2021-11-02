@@ -3476,8 +3476,6 @@ Otherwise, it will be assigned the value of b
 
 ---------------------------------------
 
-<strong>Solution: </strong>
-
 ```Java
 
 public class MyClass {
@@ -3494,6 +3492,17 @@ public class MyClass {
 
          
 ```
+
+<strong>Solution: </strong>
+
+```Java
+
+Anyone who has never made a mistake has never tried anything new.
+Anyone who has never made a mistake has never tried anything new.
+Anyone who has never made a mistake has never tried anything new.
+
+```
+
 ----------------------------------------
 
 # Question 106
