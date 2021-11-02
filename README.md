@@ -3209,5 +3209,123 @@ public class MyClass {
 ```
 ----------------------------------------
 
+# Question 98
+
+### **Question:**
+
+> ***Write a program to print the maximum of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {
+  
+    public static void main(String args[])
+    {
+        double a = 15.143;
+        double b = 15.656;
+  
+        System.out.println(Math.max(a, b));
+    }
+}
+            
+```
+----------------------------------------
+
+
+# Question 99
+
+### **Question:**
+
+> ***Write a program to Find the absolute value of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {
+  
+    public static void main(String args[])
+    {
+    int x = 820;
+    int y = -985;
+    float z = -8.1f;
+    System.out.printf( "Absolute Value of x: %d \n", Math.abs(x) );
+    System.out.printf( "Absolute Value of y: %d \n", Math.abs(y) );
+    System.out.printf( "Absolute Value of z: %f \n", Math.abs(z) );
+    }
+}
+         
+```
+----------------------------------------
+
+
+# Question 100
+
+### **Question:**
+
+> ***Write a program to Find the absolute value of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {
+  
+    public static void main(String args[])
+    {
+    int x = 820;
+    int y = -985;
+    float z = -8.1f;
+    System.out.printf( "Absolute Value of x: %d \n", Math.abs(x) );
+    System.out.printf( "Absolute Value of y: %d \n", Math.abs(y) );
+    System.out.printf( "Absolute Value of z: %f \n", Math.abs(z) );
+    }
+}
+         
+```
+----------------------------------------
+
+
+# Question 101
+
+### **Question:**
+
+> ***Write a program to illustrate the isNaN method.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {
+  
+    public static void main(String args[])
+    {
+        
+        /* The isNaN method returns true if the value is NaN. */
+        
+        
+        Float a = Float.NaN;
+        Float b = 6.0f;
+        
+        System.out.println(a +" - " + a.isNaN()); 
+        System.out.println(a +" - " + Float.isNaN(a)); 
+        System.out.println(b +" - " + Float.isNaN(b));
+    }
+}
+         
+```
+----------------------------------------
+
+
 
 
