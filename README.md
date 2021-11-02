@@ -3341,7 +3341,7 @@ public class MyClass {
 
 import java.util.Scanner;
 
-public class Main {
+public class MyClass {
 
 
 	public static void main(String[] args) 
@@ -3445,8 +3445,8 @@ System.out.println("Access Denied! Try again");
 
 ```Java
 
-public class MyClass
-{
+public class MyClass {
+	
 	public static void main(String[] args) {
 	    
  /* 
