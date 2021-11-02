@@ -2952,6 +2952,27 @@ System.out.println("The total number of punctuations in a given string : " +coun
 ```
 ----------------------------------------
 
+# Question 90
+
+### **Question:**
+
+> ***Write a program to Convert Decimal to Hexadecimal.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {  
+public static void main(String args[]){  
+System.out.println(Integer.toHexString(10));  
+System.out.println(Integer.toHexString(15));  
+System.out.println(Integer.toHexString(289));  
+}
+}        
+```
+----------------------------------------
+
 
 
 
