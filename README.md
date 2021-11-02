@@ -3367,3 +3367,66 @@ public class Main {
 ----------------------------------------
 
 
+
+# Question 103
+
+### **Question:**
+
+> ***Write a program to Promt User for 4 Times Password Check.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+import java.util.Scanner;
+
+public class MyClass
+
+{
+
+public static void main(String[] args){
+
+String password = "123";
+
+String inputPass;
+
+Scanner input = new Scanner(System.in);
+
+System.out.println("Enter Your Password:");
+
+inputPass = input.nextLine();
+
+if (inputPass.equals(password))
+
+{
+
+System.out.println("Welcome User!");
+
+}
+
+else
+
+{
+
+for (int i = 0; i < 3; i++)
+
+{
+
+System.out.println("Enter Your Password:");
+
+inputPass = input.nextLine();
+
+}
+
+System.out.println("Access Denied! Try again");
+
+}
+
+}
+
+}
+         
+```
+----------------------------------------
