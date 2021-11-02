@@ -3496,3 +3496,27 @@ public class MyClass {
 ```
 ----------------------------------------
 
+# Question 106
+
+### **Question:**
+
+> ***Write a program to Multiply a Number with 4 using Bitwise Operator.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {
+  
+
+  public static void main(String[] args) {
+    int n = 6;
+    System.out.print(n << 2);
+  }
+}
+       
+```
+----------------------------------------
+
