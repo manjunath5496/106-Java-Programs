@@ -2918,3 +2918,41 @@ public class MyClass
 }      
 ```
 ----------------------------------------
+
+# Question 89
+
+### **Question:**
+
+> ***Write a program to count the total number of punctuations in a given string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass  
+{    
+public static void main (String args[])   
+{    
+  
+int count = 0;    
+String str = "Logic will get you from A to Z; imagination will get you everywhere.";    
+for (int i = 0; i < str.length(); i++)   
+{    
+   
+if(str.charAt(i) == '!' || str.charAt(i) == ',' || str.charAt(i) == ';' || str.charAt(i) == '.' 
+||  str.charAt(i) == '?' || str.charAt(i) == '-' || str.charAt(i) == '\'' || str.charAt(i) == '\"' || str.charAt(i) == ':')   
+{    
+count++;    
+}    
+}    
+System.out.println("The total number of punctuations in a given string : " +count);    
+}    
+}       
+```
+----------------------------------------
+
+
+
+
+
