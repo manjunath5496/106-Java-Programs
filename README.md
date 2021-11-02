@@ -3327,5 +3327,43 @@ public class MyClass {
 ----------------------------------------
 
 
+# Question 102
+
+### **Question:**
+
+> ***Write a program to Check whether a Number is Divisible by 5 and 11.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+import java.util.Scanner;
+
+public class Main {
+
+
+	public static void main(String[] args) 
+	{
+		int number;
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print(" Enter a Number : ");
+		number = scanner.nextInt();
+		
+		if((number % 5 == 0) && (number % 11 == 0))
+		{
+			System.out.println(number + " is Divisible by 5 and 11"); 
+		}
+		else
+		{
+			System.out.println(number + " is Not Divisible by 5 and 11"); 
+		}	
+	}
+}
+            
+```
+----------------------------------------
 
 
