@@ -3467,3 +3467,32 @@ Otherwise, it will be assigned the value of b
          
 ```
 ----------------------------------------
+
+# Question 105
+
+### **Question:**
+
+> ***What would be the output of the following Program:***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {
+  static void myMethod() {
+    System.out.println("Anyone who has never made a mistake has never tried anything new.");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+    myMethod();
+    myMethod();
+  }
+}
+
+         
+```
+----------------------------------------
+
